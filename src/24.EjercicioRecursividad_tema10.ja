@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+        factorial(30);
+    }
+
+    public static int factorial(int numero){ //factorial recursivo
+        int resultado;
+        System.out.println(numero);
+        if (numero==1){
+            return 1;
+        }
+        resultado = factorial(numero-1)*numero;
+        return resultado;
+    }
+
+    public static int factorialNorecursivo(int numero){
+        int temp;
+        int resultado=1;
+        for (temp=1; temp <= numero; temp ++){
+            resultado = resultado * temp;
+        }
+        return resultado;
+
+    }
+}
+
+//RECURSIVIDAD:Consiste en que un método (funcion) se va a llamar asi mismo una y otra vez
+

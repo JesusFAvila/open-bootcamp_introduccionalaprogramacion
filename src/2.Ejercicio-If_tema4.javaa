@@ -1,0 +1,12 @@
+public class ejercicio_condicionales {
+    public static void main(String[] args) {
+            String estacion = "primavera";
+            if (estacion == "primavera") {
+                System.out.println("Es primavera y la sangre altera.");
+            } else if (estacion == "invierno") {
+                System.out.println("Estamos en invierno y se me hielan los huevos");
+            }else{
+                System.out.println("Estamos en verano y me tomo un mojito");
+        }
+    }
+}
